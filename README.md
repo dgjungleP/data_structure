@@ -9,3 +9,4 @@
 - [ ] [二分查找](com.jungle.ds/search/README.md) 
 - [ ] [跳表](com.jungle.ds/skip_list/README.md) 
 - [ ] [散列表](com.jungle.ds/hash_table/README.md) 
+- [ ] [哈希算法](com.jungle.ds/hash_table/README.md) 
