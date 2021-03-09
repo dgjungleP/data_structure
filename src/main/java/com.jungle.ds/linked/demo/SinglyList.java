@@ -68,7 +68,6 @@ public class SinglyList implements Linked {
             }
             head = next;
         }
-        this.size--;
     }
 
     @Override
