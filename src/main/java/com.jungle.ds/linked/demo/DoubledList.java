@@ -1,11 +1,11 @@
-package linked.demo;
+package com.jungle.ds.linked.demo;
 
 /**
  * @version: v1.0
  * @date: 2021/3/8
  * @author: dgj
  */
-public class DoubledList {
+public class DoubledList implements Linked {
     private Node head;
     private int size;
 
@@ -15,7 +15,7 @@ public class DoubledList {
     }
 
 
-    public void add(int data) {
+    public void add(long data) {
         Node head = this.head;
         while (head.next != null) {
             head = head.next;
@@ -24,7 +24,23 @@ public class DoubledList {
         this.size++;
     }
 
-    public int get(int index) {
+    public void add(int index, long data) {
+
+    }
+
+    public void remove(int index) {
+
+    }
+
+    public void remove(long data) {
+
+    }
+
+    public void set(int index, long data) {
+
+    }
+
+    public long get(int index) {
         if (index > this.size) {
             return -1;
         }
@@ -39,29 +55,29 @@ public class DoubledList {
         return size;
     }
 
-    private class Node {
-        private int data;
+    private static class Node {
+        private long data;
         private Node next;
         private Node pre;
 
-        public Node(int data, Node next, Node pre) {
+        public Node(long data, Node next, Node pre) {
             this.data = data;
             this.next = next;
             this.pre = pre;
         }
 
-        public Node(int data) {
+        public Node(long data) {
             this.data = data;
         }
 
         public Node() {
         }
 
-        public int getData() {
+        public long getData() {
             return data;
         }
 
-        public void setData(int data) {
+        public void setData(long data) {
             this.data = data;
         }
 
