@@ -5,11 +5,11 @@ package com.jungle.ds.stack.demo;
  * @date: 2021/3/15
  * @author: dgj
  */
-public class SequentialStack implements Stack {
+public class ChainStack implements Stack {
 
     private Node head;
 
-    public SequentialStack() {
+    public ChainStack() {
         this.head = new Node();
     }
 

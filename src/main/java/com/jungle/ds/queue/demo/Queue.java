@@ -5,5 +5,5 @@ public interface Queue {
 
     public void enqueue(long data);
 
-    public void dequeue();
+    public long dequeue();
 }
