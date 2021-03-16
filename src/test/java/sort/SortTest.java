@@ -1,10 +1,13 @@
 package sort;
 
 import com.jungle.ds.sort.demo.Bubbling;
+import com.jungle.ds.sort.demo.Inserting;
+import com.jungle.ds.sort.demo.Shelling;
 import com.jungle.ds.sort.demo.Sort;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 /**
  * @version: v1.0
@@ -13,18 +16,29 @@ import java.util.List;
  */
 public class SortTest {
     public static void main(String[] args) {
+        testSort(getSufferList(), new Bubbling());
+        testSort(getSufferList(), new Inserting());
+        testSort(getSufferList(), new Shelling());
+    }
+
+    private static List<Long> getSufferList() {
         List<Long> sufferList = new ArrayList<>();
-        sufferList.add(1L);
-        sufferList.add(7L);
-        sufferList.add(3L);
-        sufferList.add(5L);
-        sufferList.add(5L);
-        sufferList.add(2L);
-        testSort(sufferList, new Bubbling());
+        sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % 100)));
+        sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % 100)));
+        sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % 100)));
+        sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % 100)));
+        sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % 100)));
+        sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % 100)));
+        sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % 100)));
+        sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % 100)));
+        sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % 100)));
+        return sufferList;
     }
 
     private static void testSort(List<Long> sufferList, Sort sort) {
-        sort.sort(sufferList);
         System.out.println("sufferList = " + sufferList);
+        sort.sort(sufferList);
+        System.out.println("sortList = " + sufferList);
     }
+
 }
