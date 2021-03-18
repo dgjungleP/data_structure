@@ -3,9 +3,9 @@
 - [x] [冒泡排序](demo/Bubbling.java)
 - [x] [插入排序](demo/Inserting.java)
     - [x] [希尔排序](demo/Shelling.java)
-- [ ] 选择排序
+- [x] [选择排序](demo/Selecting.java)
 - 分治思想
-- [ ] 归并排序
+- [x] [归并排序](demo/Merging.java)
 - [ ] 快速排序
     - [ ] 三数取中法
     - [ ] 随机法
