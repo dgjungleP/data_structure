@@ -22,7 +22,7 @@ public class SortTest {
 
     private static List<Long> getSufferList() {
         List<Long> sufferList = new ArrayList<>();
-        int count = 100000;
+        int count = 10000;
         for (int i = 0; i < count; i++) {
             sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % (count + 1))));
         }
