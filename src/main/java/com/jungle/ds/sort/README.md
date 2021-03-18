@@ -2,7 +2,7 @@
 - 原地排序
 - [x] [冒泡排序](demo/Bubbling.java)
 - [x] [插入排序](demo/Inserting.java)
-    - [ ] 希尔排序
+    - [x] [希尔排序](demo/Shelling.java)
 - [ ] 选择排序
 - 分治思想
 - [ ] 归并排序

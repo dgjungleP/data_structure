@@ -1,9 +1,6 @@
 package sort;
 
-import com.jungle.ds.sort.demo.Bubbling;
-import com.jungle.ds.sort.demo.Inserting;
-import com.jungle.ds.sort.demo.Shelling;
-import com.jungle.ds.sort.demo.Sort;
+import com.jungle.ds.sort.demo.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +16,7 @@ public class SortTest {
         testSort(getSufferList(), new Bubbling());
         testSort(getSufferList(), new Inserting());
         testSort(getSufferList(), new Shelling());
+        testSort(getSufferList(), new Selecting());
     }
 
     private static List<Long> getSufferList() {
