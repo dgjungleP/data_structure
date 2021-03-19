@@ -6,7 +6,7 @@
 - [x] [选择排序](demo/Selecting.java)
 - 分治思想
 - [x] [归并排序](demo/Merging.java)
-- [ ] 快速排序
+- [x] [快速排序](demo/Fasting.java)
     - [ ] 三数取中法
     - [ ] 随机法
     - [ ] 双向扫描分区

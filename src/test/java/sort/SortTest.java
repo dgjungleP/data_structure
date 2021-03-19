@@ -13,16 +13,17 @@ import java.util.Random;
  */
 public class SortTest {
     public static void main(String[] args) {
-        testSort(getSufferList(), new Bubbling());
-        testSort(getSufferList(), new Inserting());
-        testSort(getSufferList(), new Shelling());
-        testSort(getSufferList(), new Selecting());
-        testSort(getSufferList(), new Merging());
+//        testSort(getSufferList(), new Bubbling());
+//        testSort(getSufferList(), new Inserting());
+//        testSort(getSufferList(), new Shelling());
+//        testSort(getSufferList(), new Selecting());
+//        testSort(getSufferList(), new Merging());
+        testSort(getSufferList(), new Fasting());
     }
 
     private static List<Long> getSufferList() {
         List<Long> sufferList = new ArrayList<>();
-        int count = 10000;
+        int count = 1000;
         for (int i = 0; i < count; i++) {
             sufferList.add((long) new Random().nextInt(Math.toIntExact(System.currentTimeMillis() % (count + 1))));
         }
