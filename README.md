@@ -16,3 +16,7 @@
 - [ ] [字符串匹配](src/main/java/com/jungle/ds/string_matching/README.md) 
 - [ ] [贪心算法](src/main/java/com/jungle/ds/gready_alg/README.md) 
 - [ ] [分治算法](src/main/java/com/jungle/ds/divide_alg/README.md) 
+- [ ] [回溯算法](src/main/java/com/jungle/ds/backtracking_alg/README.md) 
+- [ ] [动态规划](src/main/java/com/jungle/ds/dynamic_programming/README.md) 
+- [ ] [最短路径](src/main/java/com/jungle/ds/shortest_path_alg/README.md) 
+- [ ] [概率统计](src/main/java/com/jungle/ds/probablity_static/README.md) 
