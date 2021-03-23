@@ -20,3 +20,4 @@
 - [ ] [动态规划](src/main/java/com/jungle/ds/dynamic_programming/README.md) 
 - [ ] [最短路径](src/main/java/com/jungle/ds/shortest_path_alg/README.md) 
 - [ ] [概率统计](src/main/java/com/jungle/ds/probablity_static/README.md) 
+- [ ] [向量空间](src/main/java/com/jungle/ds/vector_space/README.md) 

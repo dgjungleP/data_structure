@@ -17,6 +17,8 @@
     - [ ] 2-3树
 - [ ] 递归树
 - [ ] 哈夫曼树
+- [ ] B+树
+    - [ ] Mysql索引
 
 ## 其他扩展
 - [卡塔兰数](https://blog.csdn.net/qq_30115697/article/details/88906534)
