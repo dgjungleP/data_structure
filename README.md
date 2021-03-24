@@ -22,3 +22,6 @@
 - [ ] [概率统计](src/main/java/com/jungle/ds/probablity_static/README.md) 
 - [ ] [向量空间](src/main/java/com/jungle/ds/vector_space/README.md) 
 - [ ] [并行算法](src/main/java/com/jungle/ds/vector_space/README.md) 
+## 其他算法
+- [ ] PageRank 算法
+- [ ] tf-idf 模型
